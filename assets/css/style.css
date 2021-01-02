@@ -1335,11 +1335,11 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links {
+.social-links-main {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
+.social-links-main a {
   font-size: 18px;
   display: inline-block;
   background: #ffb727;
@@ -1354,7 +1354,7 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+.social-links-main a:hover {
   background: #f3a200;
   color: #fff;
   text-decoration: none;
