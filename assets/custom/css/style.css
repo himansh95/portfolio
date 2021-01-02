@@ -1,0 +1,65 @@
+/*default version*/
+@font-face {
+	font-family: 'harryp-regular';
+	src: url('../fonts/HARRYP__.TTF'); 
+	src: 
+		local('HarryP Regular'),
+		local('HarryP-Regular'),
+		url('../fonts/HARRYP__.TTF') 
+		format('truetype');
+}
+/*bold version*/
+@font-face {
+	font-family: 'harryp-bold';
+	src: url('../fonts/HARRYP__.TTF'); 
+	src: 
+		local('HarryP Bold'),
+		local('HarryP-Bold'),
+		url('../fonts/HARRYP__.TTF') 
+		format('truetype');
+	font-weight: bold;
+}
+
+#hero h1 {
+    font-family: 'harryp-regular';
+    font-size: 100px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    #hero {
+        background-position: 500px 0px; 
+    }
+}
+
+#hero h2 {
+    font-family:'Satisfy';
+    font-size: 25px;
+    text-transform: none;
+}
+
+.typist-blink {
+    font-weight:700;
+    font-family:'Satisfy';
+}
+.typist-blink:after {
+    position:relative;
+    top:6px;
+    display:inline-block;
+    height:30px;
+    margin-right:7px;
+    margin-left:3px;
+    content:' ';
+    -webkit-animation:blink 1s step-start 0 infinite;
+    animation:blink 1s step-start 0 infinite;
+    border-right:2px solid;
+}
+.typist-blink>.selectedText {
+    display:none
+}
+.typist-mark>.selectedText {
+    font-style:normal;
+    color:#fff;
+    background-color:#222
+}
