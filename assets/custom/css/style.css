@@ -34,10 +34,38 @@
     content: url('../../img/logo-salesforce-white.svg');
 }
 
+.resume .resume-title {
+    color: #173b6c;
+}
+
+.resume .resume-item h4 {
+    color: #3b434a;
+}
+
+.bulk-text {
+    text-align: justify;
+}
+
+.not-active > a {
+    color: #fff!important;
+}
+
+.credential-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.credential-details {
+    padding-left: 0;
+}
+
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     #hero {
         background-position: 500px 0px; 
+    }
+    .about .image {
+        min-height: 260px;
     }
 }
 
