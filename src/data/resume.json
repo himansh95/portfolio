@@ -1,0 +1,83 @@
+{
+  "resume": {
+    "education": [
+      {
+        "degree": "Master of Science in Computer Science",
+        "institution": "Stanford University",
+        "location": "Stanford, CA",
+        "period": "2015 - 2017",
+        "description": "Specialized in Software Engineering and Artificial Intelligence."
+      },
+      {
+        "degree": "Bachelor of Technology in Computer Science",
+        "institution": "Indian Institute of Technology",
+        "location": "Delhi, India",
+        "period": "2011 - 2015",
+        "description": "Graduated with honors. Focused on algorithms and data structures."
+      }
+    ],
+    "experience": [
+      {
+        "position": "Senior Software Developer",
+        "company": "Tech Innovations Inc.",
+        "location": "San Francisco, CA",
+        "period": "2020 - Present",
+        "responsibilities": [
+          "Lead a team of 5 developers in building and maintaining web applications",
+          "Architect and implement scalable front-end solutions using React and TypeScript",
+          "Collaborate with product managers and designers to define project requirements",
+          "Mentor junior developers and conduct code reviews"
+        ]
+      },
+      {
+        "position": "Software Developer",
+        "company": "WebSolutions Co.",
+        "location": "San Jose, CA",
+        "period": "2017 - 2020",
+        "responsibilities": [
+          "Developed responsive web applications using React, Redux, and Node.js",
+          "Implemented RESTful APIs and integrated third-party services",
+          "Optimized application performance and improved loading times by 40%",
+          "Participated in agile development processes and sprint planning"
+        ]
+      },
+      {
+        "position": "Software Engineering Intern",
+        "company": "Global Tech Ltd.",
+        "location": "New York, NY",
+        "period": "Summer 2016",
+        "responsibilities": [
+          "Assisted in developing new features for a customer-facing web application",
+          "Fixed bugs and improved UI/UX of existing application",
+          "Learned and applied industry best practices in code organization and testing"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Developer - Associate",
+        "issuer": "Amazon Web Services",
+        "date": "2021"
+      },
+      {
+        "name": "Professional Scrum Master I (PSM I)",
+        "issuer": "Scrum.org",
+        "date": "2019"
+      }
+    ],
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Built a full-stack e-commerce platform with React, Node.js, and MongoDB",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+        "link": "https://github.com/himansh95/ecommerce-platform"
+      },
+      {
+        "name": "Task Management App",
+        "description": "Developed a real-time task management application with drag-and-drop functionality",
+        "technologies": ["React", "TypeScript", "Firebase", "Redux", "Material-UI"],
+        "link": "https://github.com/himansh95/task-manager"
+      }
+    ]
+  }
+}

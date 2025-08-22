@@ -1,0 +1,50 @@
+@import '../variables';
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  
+  @include respond-to(tablet) {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.resume-left-column {
+  // Styles for the left column (resume header + download button)
+  .resume-header, .resume-download {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+    @include respond-to(tablet) {
+      padding: 20px;
+    }
+    
+    @include respond-to(mobile) {
+      padding: 15px;
+    }
+  }
+  
+  .resume-download {
+    margin-top: 20px;
+  }
+}
+
+.resume-right-column {
+  // Styles for the right column (resume content)
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  
+  @include respond-to(tablet) {
+    padding: 20px;
+  }
+  
+  @include respond-to(mobile) {
+    padding: 15px;
+  }
+}

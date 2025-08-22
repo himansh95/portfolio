@@ -1,0 +1,25 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "position": "Project Manager at Tech Solutions",
+      "image": "/assets/images/testimonials/john.jpg",
+      "text": "Himanshu is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding. It's been a pleasure working with him on multiple projects."
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "position": "CTO at StartUp Inc.",
+      "image": "/assets/images/testimonials/sarah.jpg",
+      "text": "I've had the opportunity to work with Himanshu on a complex web application. His technical expertise and dedication to the project were impressive. He's not just a skilled developer but also a great team player."
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "position": "Senior Developer at WebCraft",
+      "image": "/assets/images/testimonials/michael.jpg",
+      "text": "Collaborating with Himanshu has been a great experience. His code is clean, well-documented, and efficient. He's always eager to learn new technologies and approaches problems with a positive attitude."
+    }
+  ]
+}

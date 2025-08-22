@@ -1,0 +1,16 @@
+{
+  "personalInfo": {
+    "name": "Himanshu",
+    "title": "Software Developer",
+    "summary": "A passionate developer with expertise in building modern web applications",
+    "profileImage": "/assets/images/profile.jpg",
+    "email": "himanshu@example.com",
+    "phone": "+1 (123) 456-7890",
+    "location": "San Francisco, CA",
+    "social": {
+      "github": "https://github.com/himansh95",
+      "linkedin": "https://linkedin.com/in/himansh95",
+      "twitter": "https://twitter.com/himansh95"
+    }
+  }
+}

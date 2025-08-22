@@ -1,0 +1,85 @@
+{
+  "skills": {
+    "programmingLanguages": [
+      {
+        "name": "JavaScript",
+        "level": 90,
+        "icon": "fab fa-js"
+      },
+      {
+        "name": "TypeScript",
+        "level": 85,
+        "icon": "fab fa-js"
+      },
+      {
+        "name": "HTML5",
+        "level": 95,
+        "icon": "fab fa-html5"
+      },
+      {
+        "name": "CSS3/SCSS",
+        "level": 90,
+        "icon": "fab fa-css3-alt"
+      },
+      {
+        "name": "Python",
+        "level": 75,
+        "icon": "fab fa-python"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "React",
+        "level": 90,
+        "icon": "fab fa-react"
+      },
+      {
+        "name": "Node.js",
+        "level": 85,
+        "icon": "fab fa-node-js"
+      },
+      {
+        "name": "Express",
+        "level": 80,
+        "icon": "fas fa-server"
+      },
+      {
+        "name": "Next.js",
+        "level": 80,
+        "icon": "fas fa-n"
+      },
+      {
+        "name": "Redux",
+        "level": 85,
+        "icon": "fas fa-database"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "level": 90,
+        "icon": "fab fa-git-alt"
+      },
+      {
+        "name": "Docker",
+        "level": 75,
+        "icon": "fab fa-docker"
+      },
+      {
+        "name": "AWS",
+        "level": 70,
+        "icon": "fab fa-aws"
+      },
+      {
+        "name": "MongoDB",
+        "level": 80,
+        "icon": "fas fa-database"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 75,
+        "icon": "fas fa-database"
+      }
+    ]
+  }
+}

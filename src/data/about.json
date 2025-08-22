@@ -1,0 +1,18 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": "I am a Software Developer with over 5 years of experience specializing in web development. I'm passionate about creating efficient, user-friendly applications that solve real-world problems. My expertise includes front-end technologies like React and TypeScript, as well as back-end technologies including Node.js and databases.",
+    "details": [
+      "5+ years of professional experience in software development",
+      "Strong expertise in React, TypeScript, and modern JavaScript",
+      "Experience with Node.js, Express, and RESTful API design",
+      "Collaborative team player with excellent communication skills"
+    ],
+    "keyAreas": [
+      "Web Development",
+      "Front-end Architecture",
+      "Responsive Design",
+      "Performance Optimization"
+    ]
+  }
+}

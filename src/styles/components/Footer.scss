@@ -1,0 +1,127 @@
+@import '../variables';
+
+.footer {
+  background-color: $primary-color;
+  color: rgba($light-text, 0.8);
+  padding: 60px 0 30px;
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+    @include respond-to(tablet) {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    
+    @include respond-to(mobile) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .footer-logo {
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: $light-text;
+      margin-bottom: 5px;
+    }
+    
+    p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  }
+  
+  .footer-links {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px 30px;
+      
+      @include respond-to(mobile) {
+        justify-content: center;
+      }
+      
+      li {
+        a {
+          color: rgba($light-text, 0.8);
+          font-size: 0.9rem;
+          transition: $transition;
+          
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+  
+  .footer-social {
+    p {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+    }
+    
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      
+      @include respond-to(mobile) {
+        justify-content: center;
+      }
+      
+      a {
+        width: 35px;
+        height: 35px;
+        background-color: rgba($light-text, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $light-text;
+        transition: $transition;
+        
+        &:hover {
+          background-color: $secondary-color;
+        }
+      }
+    }
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba($light-text, 0.1);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    @include respond-to(mobile) {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    p {
+      font-size: 0.9rem;
+    }
+    
+    .back-to-top {
+      width: 40px;
+      height: 40px;
+      background-color: rgba($light-text, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $light-text;
+      transition: $transition;
+      
+      &:hover {
+        background-color: $secondary-color;
+        transform: translateY(-5px);
+      }
+    }
+  }
+}

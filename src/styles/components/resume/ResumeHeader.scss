@@ -1,0 +1,82 @@
+@import '../../variables';
+
+.resume-header {
+  display: flex;
+  flex-direction: column;
+  
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid rgba($secondary-color, 0.1);
+    }
+  }
+  
+  .resume-title {
+    margin-bottom: 20px;
+    text-align: center;
+    
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: $primary-color;
+      margin-bottom: 5px;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+      color: $secondary-color;
+      font-weight: 500;
+    }
+  }
+  
+  .resume-contact, .resume-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+    
+    .contact-item {
+      display: flex;
+      align-items: center;
+      
+      i {
+        width: 25px;
+        color: $secondary-color;
+        margin-right: 8px;
+      }
+      
+      span, a {
+        font-size: 0.9rem;
+        color: $text-color;
+      }
+      
+      a:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+  
+  .section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $primary-color;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba($text-color, 0.1);
+  }
+  
+  .resume-summary {
+    p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: $text-color;
+    }
+  }
+}

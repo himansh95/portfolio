@@ -1,0 +1,128 @@
+@import 'variables';
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: $text-color;
+  background-color: $light-bg;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+  transition: $transition;
+  
+  &:hover {
+    color: darken($secondary-color, 10%);
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $primary-color;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 50px;
+      height: 3px;
+      background-color: $secondary-color;
+      transform: translateX(-50%);
+    }
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: lighten($text-color, 20%);
+    margin-top: 10px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: $transition;
+  border: none;
+  
+  &-primary {
+    background-color: $secondary-color;
+    color: $light-text;
+    
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+      color: $light-text;
+    }
+  }
+  
+  &-outline {
+    background: transparent;
+    border: 2px solid $secondary-color;
+    color: $secondary-color;
+    
+    &:hover {
+      background-color: $secondary-color;
+      color: $light-text;
+    }
+  }
+}
+
+section {
+  @include section-padding;
+}
+
+// Animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
