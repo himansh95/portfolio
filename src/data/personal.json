@@ -1,0 +1,14 @@
+{
+  "name": "Himanshu Chachra",
+  "tagline": "Full Stack Salesforce Commerce Cloud Developer",
+  "bio": "I'm a passionate Full Stack Salesforce Commerce Cloud Developer with 8+ years of experience building scalable web applications and enterprise-grade ecommmerce solutions. I love turning complex problems into elegant, user-friendly experiences.",
+  "location": "Bengaluru, India",
+  "email": "himanshuchachra1995@gmail.com",
+  "resumeUrl": "/portfolio/assets/img/resume/Himanshu_Chachra_Resume.pdf",
+  "social": [
+    { "label": "LinkedIn",  "url": "https://www.linkedin.com/in/himanshuchachra95/", "icon": "bx bxl-linkedin"  },
+    { "label": "GitHub",    "url": "https://github.com/himansh95",                   "icon": "bx bxl-github"    },
+    { "label": "Trailhead", "url": "https://www.salesforce.com/trailblazer/hchachra2", "icon": "ri-cloud-line"  },
+    { "label": "Instagram", "url": "https://www.instagram.com/himanshuchachra95/",   "icon": "bx bxl-instagram" }
+  ]
+}

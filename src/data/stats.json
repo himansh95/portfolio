@@ -1,0 +1,6 @@
+[
+  { "icon": "bi bi-clock", "end": 8, "label": "Years of Experience", "duration": 2 },
+  { "icon": "bi bi-journal-richtext", "end": 10, "label": "Projects Completed", "duration": 2 },
+  { "icon": "bi bi-award", "end": 3, "label": "Certifications", "duration": 2 },
+  { "icon": "bi bi-emoji-smile", "end": 5, "label": "Happy Clients", "duration": 2 }
+]

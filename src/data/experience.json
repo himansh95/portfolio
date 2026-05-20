@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "company": "Lululemon India Services Pvt. Ltd.",
+    "icon": "bx bxs-buildings",
+    "role": "Software Engineer II",
+    "startDate": "2022-09",
+    "endDate": null,
+    "location": "Bangalore, India",
+    "bullets": [
+      "Leading the Cart and Checkout funnel development for International business (EMEA and APAC regions)",
+      "Managing 10 country-specific websites built on SFCC SFRA architecture",
+      "Execute regular version upgrades for SFRA and integrated LINK cartridges",
+      "Implementing localized experiences for region-specific loyalty programs, payment methods, and shipping solutions",
+      "Integrate Eshopworld to streamline region-specific shipping and payment processes",
+      "Oversee code releases, automated unit testing, documentation, and post-release support",
+      "Provide critical support during retail peak periods to maximize revenue performance"
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Deloitte USI",
+    "icon": "bx bx-globe",
+    "role": "Consultant",
+    "startDate": "2021-05",
+    "endDate": "2022-09",
+    "location": "Pune, India",
+    "bullets": [
+      "Managed e-commerce application functionality, data flows, and system integrations using SFRA",
+      "Facilitated integrations with third-party services including SFMC, Adyen, and MuleSoft",
+      "Addressed client issues and requests within defined SLAs with on-call support",
+      "Conducted code releases, automated testing, and post-release maintenance",
+      "Led meetings with business stakeholders and third-party vendors to resolve issues",
+      "Supported peak sales periods with load testing and system optimization"
+    ]
+  },
+  {
+    "id": 3,
+    "company": "Ideatarmac UG",
+    "icon": "bx bx-bulb",
+    "role": "Senior Salesforce Commerce Cloud Developer",
+    "startDate": "2019-08",
+    "endDate": "2021-05",
+    "location": "Bangalore, India",
+    "bullets": [
+      "Developed and maintained LINK cartridges for various service providers",
+      "Created connector between client’s PIM and SFCC merchant partners",
+      "Designed custom caching system using Impex file systems to optimize performance",
+      "Developed SFRA-compliant storefront integration cartridge for payment processing",
+      "Built Business Manager module enabling merchants to manage payment transactions"
+    ]
+  },
+  {
+    "id": 4,
+    "company": "Cognizant Technology Solutions",
+    "icon": "bx bx-chip",
+    "role": "Associate",
+    "startDate": "2017-09",
+    "endDate": "2019-08",
+    "location": "Bangalore, India",
+    "bullets": [
+      "Managed client’s global e-commerce sites using agile methodology",
+      "Maintained SiteGenesis codebase using Pipelines architecture",
+      "Monitored site performance and implemented optimizations to improve load times",
+      "Provided end-to-end support for high-volume sales periods like Black Friday and Cyber Monday"
+    ]
+  }
+]

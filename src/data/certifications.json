@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce Certified B2C Commerce Developer",
+    "issuer": "Salesforce",
+    "image": "/portfolio/assets/img/portfolio/sfcc-cert.jpeg",
+    "date": "2020-11",
+    "credentialUrl": ""
+  },
+  {
+    "id": 2,
+    "name": "Oracle Certified Associate — Java SE 7 Programmer",
+    "issuer": "Oracle",
+    "image": "/portfolio/assets/img/portfolio/oca-cert.jpg",
+    "date": "2016-08",
+    "credentialUrl": ""
+  },
+  {
+    "id": 3,
+    "name": "Mirakl Certified Integrator",
+    "issuer": "Mirakl University",
+    "image": "/portfolio/assets/img/portfolio/mirakl-cert.png",
+    "date": "2022-01",
+    "credentialUrl": ""
+  },
+  {
+    "id": 4,
+    "name": "Digital Prodigy Award",
+    "issuer": "Cognizant",
+    "image": "/portfolio/assets/img/portfolio/digital-prodigy-cert.jpg",
+    "date": "2022-11",
+    "credentialUrl": ""
+  },
+  {
+    "id": 5,
+    "name": "Orbit Shifter",
+    "issuer": "Cognizant Academy",
+    "image": "/portfolio/assets/img/portfolio/os-cert.jpg",
+    "date": "2018-09",
+    "credentialUrl": ""
+  }
+]

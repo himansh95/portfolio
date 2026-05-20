@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "icon": "bx bx-trending-up",
+    "category": "Automation",
+    "title": "IPO GMP Tracker",
+    "description": "Automatically tracks live IPO Grey Market Premium (GMP) data and sends a daily email alert whenever a mainboard IPO's GMP crosses 50% — from its open date to its close date.",
+    "technologies": ["Node.js", "Github Actions", "Typescript", "Nodemailer"],
+    "repoUrl": "https://github.com/himansh95/ipo-gmp-tracker"
+}, {
+    "id": 2,
+    "icon": "bx bx-extension",
+    "category": "Web",
+    "title": "Extension",
+    "description": "An extension for salesforce commerce cloud developers to pretty print JSON text if any file in an IMPEX location contains JSON text.",
+    "technologies": ["Javascript", "jQuery"],
+    "repoUrl": "https://github.com/himansh95/my-cool-extension"
+}, {
+    "id": 3,
+    "icon": "bx bx-layout",
+    "category": "Web",
+    "title": "Tomcare Website",
+    "description": "A static website for Tomcare, a startup that provides car washing and servicing. The website is built using HTML, CSS and Javascript and is hosted on GitHub Pages.",
+    "technologies": ["HTML5", "CSS3", "Javascript"],
+    "repoUrl": "https://github.com/himansh95/tomcare"
+}, {
+    "id": 4,
+    "icon": "bx bx-cycling",
+    "category": "Automation",
+    "title": "Pedal Fiddle",
+    "description": "Pedal Fiddle is a personal web app that hooks into Strava's webhook API to process new activities in near real-time. The moment you finish a ride, run, or workout, it generates an AI-crafted name and description, and applies your configurable privacy rules — all without you lifting a finger.",
+    "technologies": ["React", "Next.js", "Typescript", "Strava API"],
+    "repoUrl": "https://github.com/himansh95/pedal-fiddle"
+}, {
+    "id": 5,
+    "icon": "bx bx-heart-circle",
+    "category": "Android",
+    "title": "Syncing Ship",
+    "description": "Syncing Ship automatically syncs your GPS-tracked exercises from Samsung Health to Strava in the background. Once configured, the app operates completely autonomously - no user interaction required!",
+    "technologies": ["Kotlin", "Strava API", "Samsung Health SDK"],
+    "repoUrl": "https://github.com/himansh95/syncing-ship"
+}]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Peter McElroy",
+    "role": "Senior SFDC & B2B Business Analyst",
+    "company": "Cognizant",
+    "photo": "/portfolio/assets/img/testimonials/peter-mcelroy.jpg",
+    "text": "I worked with Himanshu at Cognizant on the same client account. He was one of the best I had on my team. His thorough attention to detail and quality solutions were what made him stand out. In addition, he was a fast learner and always took on a new challenge in areas not as familiar to him. I would recommend him and hope to work with him again soon."
+  },
+  {
+    "id": 2,
+    "name": "Stacey Humphrey",
+    "role": "Director of Ecommerce",
+    "company": "Philosophy.com",
+    "photo": "/portfolio/assets/img/testimonials/stacey-humphrey.jpg",
+    "text": "Peter and Amar have specifically brought to my attention a number of times you have gone above and beyond, and I wanted you to know how much that means to our business. Your understanding of urgency, attention to detail, willingness to ask questions and eagerness to learn are all fantastic qualities. In addition, you have excelled from an intern to a seasoned developer in just 1 year, which is a testament to your strong work ethic. You are a valuable asset to our team. Thank you for your partnership and keep up the great work!"
+  },
+  {
+    "id": 3,
+    "name": "Rajat Talwar",
+    "role": "Technology Manager",
+    "company": "Lululemon",
+    "photo": "/portfolio/assets/img/testimonials/rajat-talwar.jpg",
+    "text": "Thank you Himanshu for being such an integral part of the INTL Digital and specifically the Cart and Checkout funnel team. You have been a front runner in showcasing and living the lululemon culture!"
+  }
+]

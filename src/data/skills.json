@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Salesforce",
+    "icon": "bx bx-cloud",
+    "items": ["Commerce Cloud (SFCC)", "Integrations", "LINK Cartridges", "SFRA", "Composable Storefronts (Headless)"]
+  },
+  {
+    "category": "Frontend",
+    "icon": "bx bx-code-alt",
+    "items": ["React", "JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap", "SASS"]
+  },
+  {
+    "category": "Backend",
+    "icon": "bx bx-server",
+    "items": ["Node.js", "Java", "REST APIs", "SOAP APIs", "GraphQL"]
+  },
+  {
+    "category": "DevOps & Tools",
+    "icon": "bx bx-wrench",
+    "items": ["Git", "GitHub Actions", "CI/CD", "JIRA", "VS Code", "Postman", "Copilot"]
+  }
+]
